@@ -32,7 +32,7 @@ npm run build:dll
 # the dev-server will set proxy table to your backend
 export TARGET=http://Your-backend
 
-copy simditor.css to replace original one in node_modules
+#copy simditor.css to replace original one in node_modules
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -49,7 +49,7 @@ npm run build:dll
 # the dev-server will set proxy table to your backend
 set TARGET=http://Your-backend
 
-copy simditor.css to replace original one in node_modules
+#copy simditor.css to replace original one in node_modules
 
 # serve with hot reload at localhost:8080
 npm run dev
