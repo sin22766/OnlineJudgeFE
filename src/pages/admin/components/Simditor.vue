@@ -8,6 +8,8 @@
   import 'tar-simditor-markdown'
   import 'tar-simditor-markdown/styles/simditor-markdown.css'
   import './simditor-file-upload'
+  
+  Simditor.locale = 'en-US'
 
   export default {
     name: 'Simditor',
