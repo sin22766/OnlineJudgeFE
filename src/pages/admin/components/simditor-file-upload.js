@@ -29,9 +29,11 @@ UploadFile = (function (_super) {
       uploadfile: '上传文件'
     },
     'en-US': {
-      uploadfile: 'upload file'
+      uploadfile: 'Upload File'
     }
   };
+  
+  UploadFile.locale = 'en-US'
 
   UploadFile.prototype.name = 'uploadfile';
 
