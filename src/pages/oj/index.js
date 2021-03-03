@@ -55,7 +55,6 @@ Vue.component(VerticalMenu.name, VerticalMenu)
 Vue.component(VerticalMenuItem.name, VerticalMenuItem)
 Vue.component(Panel.name, Panel)
 
-// 注册全局消息提示
 Vue.prototype.$Message.config({
   duration: 2
 })

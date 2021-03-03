@@ -189,8 +189,8 @@
           <el-col :span="4">
             <el-form-item :label="$t('m.Type')">
               <el-radio-group v-model="problem.rule_type" :disabled="disableRuleType">
-                <el-radio label="ACM">ACM</el-radio>
                 <el-radio label="OI">OI</el-radio>
+				<el-radio label="ACM">ACM</el-radio>
               </el-radio-group>
             </el-form-item>
           </el-col>
@@ -343,7 +343,7 @@
           spj_compile_ok: false,
           test_case_id: '',
           test_case_score: [],
-          rule_type: 'ACM',
+          rule_type: 'OI',
           hint: '',
           source: '',
           io_mode: {'io_mode': 'Standard IO', 'input': 'input.txt', 'output': 'output.txt'}

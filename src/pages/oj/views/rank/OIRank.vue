@@ -103,9 +103,9 @@
           toolbox: {
             show: true,
             feature: {
-              dataView: {show: true, readOnly: true},
-              magicType: {show: true, type: ['line', 'bar']},
-              saveAsImage: {show: true}
+              dataView: {show: true, readOnly: true, title: 'View Data'},
+              magicType: {show: true, type: ['line', 'bar'], title: {line: 'Switch to Line Chart', bar: 'Switch to Bar Chart'}},
+              saveAsImage: {show: true, title: 'Save As Image'}
             },
             right: '10%'
           },

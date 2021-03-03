@@ -209,7 +209,6 @@
   import api from '@oj/api'
   import {pie, largePie} from './chartData'
 
-  // 只显示这些状态的图形占用
   const filtedStatus = ['-1', '-2', '0', '1', '2', '3', '4', '8']
 
   export default {
@@ -298,7 +297,7 @@
             return
           }
           // try to load problem template
-          this.language = this.problem.languages[0]
+          this.language = this.problem.languages[1]
           let template = this.problem.template
           if (template && template[this.language]) {
             this.code = template[this.language]

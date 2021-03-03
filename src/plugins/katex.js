@@ -7,7 +7,7 @@ function _ () {
 
 const defaultOptions = {
   errorCallback: _,
-  throwOnError: false,
+  throwOnError: true,
   delimiters: [
     {left: '$', right: '$', display: false},
     {left: '$$', right: '$$', display: true},

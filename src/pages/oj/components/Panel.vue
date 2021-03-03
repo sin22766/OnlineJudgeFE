@@ -61,7 +61,7 @@
     }
   }
   .panel-body {
-    word-break: break-all;
+    text-align: justify;
     word-wrap: break-word;
   }
 </style>
